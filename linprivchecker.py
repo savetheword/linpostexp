@@ -34,9 +34,9 @@ except ImportError:
 bigline = "================================================================================================="
 smlline = "-------------------------------------------------------------------------------------------------"
 
-print bigline 
+print (bigline)
 print "LINUX PRIVILEGE ESCALATION CHECKER"
-print bigline
+print (bigline)
 print
 
 # loop through dictionary, execute the commands, store the results, return updated dict
